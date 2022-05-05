@@ -3,6 +3,7 @@
 
   &-list {
     @include flexbox(start);
+    margin-left: -#{$padding};
   }
 
   &-item {
@@ -24,6 +25,7 @@
       display: block;
       padding: $padding;
       font-weight: 700;
+      white-space: nowrap;
     }
   }
 }
